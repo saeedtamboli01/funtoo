@@ -1,0 +1,70 @@
+  2 ls
+   3 git status
+   4 cd local_repo
+   5 ls
+   6 git status
+   7 git add .
+   8 git status
+   9 git status
+  10 git add index.html
+  11 git commit -m  " testing the  index"
+  12 git status
+  13 git reset HEAD~1
+  14 git status
+  15 git reset HEAD~2
+  16 git status
+  17 git log
+  18 git reset 41037d46141280469234f495b5b9cf0439cf0670 --> this is the commit-hash /
+  19 git status
+  20 git branch
+  21 git log
+  22 git checkout main
+  23 git branch
+  24 git reset --hard 41037d46141280469234f495b5b9cf0439cf0670
+  25 git sttaus
+  26 git status
+  27 ls
+  28 rm index.html
+  29 git sttaus
+  30 git status
+  31 git restore index.html
+  32 rm index.html
+  33 git status
+  34 git restore index.html
+  35 git log
+  36 git status
+  37 git rm --cacche
+  38 git rm --cache
+  39 git rm style.css --cache
+  40 git add style.css
+  python3 -m pip show flake8
+ 2022  python3 -m pip install flake8
+ 2023  git add demo.py
+ 2024  flake8 demo.py
+ 2025  git commit -m "test pre-commit hook"
+ 2026  pwd
+ 2027  git rev-parse --show-toplevel
+ 2028  ls -l .git/hooks/pre-commit
+ 2029  cat .git/hooks/pre-commit
+ 2030  vi .git/hooks/pre-commit
+ 2031  cat .git/hooks/pre-commit
+ 2032  git status
+ 2033  git add demo.py
+ 2034  git commit -m  " checking the pre-commit hook "
+ 2035  vi .git/hooks/pre-commit
+ 2036  git commit -m  " checking the pre-commit hook "
+ 2037  git status
+ 2038  git add demo.py
+ 2039  vi .git/hooks/pre-commit
+ 2040  git commit -m  " checking the pre-commit hook "
+ 2041  vi .git/hooks/post-commit
+ 2042  cat .git/hooks/post-commit
+ 2043  chmod +x .git/hooks/post-commit
+ 2044  ls -ltr .git/hooks/post-commit
+ 2045  git add index.html
+ 2046  git commit -m  "testing the post-commit"
+ 2047  vi .git/hooks/post-commit
+ 2048  cat .git/hooks/pre-commit
+ 2049  vi .git/hooks/post-commit
+ 2050  history
+saeed01@LAPTOP-B0EOFF3H:/mnt/c/users/jahid/funtoo/local_repo$ 
