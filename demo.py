@@ -3,7 +3,7 @@ def my_function():
     b=6
     c=67
     f=5
-g=8
+    g=8
 
     return d
 my_function()
